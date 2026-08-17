@@ -1,0 +1,25 @@
+{
+  "short_name": "Axon ERP",
+  "name": "Axon ERP - Tecno Elevatev & DAKACO",
+  "description": "Sistema ERP Enterprise para Elevadores y Obras (Tecno Elevatev C.A. & Soluciones Integrales DAKACO C.A.)",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#020617",
+  "theme_color": "#06b6d4",
+  "display": "standalone",
+  "orientation": "any",
+  "categories": ["business", "productivity", "utilities"]
+}

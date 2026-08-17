@@ -1,0 +1,6 @@
+{
+  "name": "Tecno Elevatev C.A. - Axon ERP",
+  "description": "Tecno Elevatev C.A. - Plataforma de Gestión Operativa, Mantenimiento y Modernización de Ascensores. Incluye facturación, presupuestos, reportes de campo y centro de migración con Supabase PostgreSQL & Storage.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

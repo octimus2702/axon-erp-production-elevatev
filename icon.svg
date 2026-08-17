@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c111d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded card -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="94" fill="none" stroke="#38bdf8" stroke-width="4" stroke-opacity="0.3"/>
+
+  <!-- Elevator Shaft Lines -->
+  <line x1="160" y1="80" x2="160" y2="432" stroke="#334155" stroke-width="6" stroke-dasharray="12 12"/>
+  <line x1="352" y1="80" x2="352" y2="432" stroke="#334155" stroke-width="6" stroke-dasharray="12 12"/>
+
+  <!-- Main Elevator Cabin (Tecno Elevatev / Axon Symbol) -->
+  <rect x="180" y="140" width="152" height="230" rx="20" fill="#1e293b" stroke="url(#cyan-grad)" stroke-width="10"/>
+  
+  <!-- Elevator Door Dividers -->
+  <line x1="256" y1="150" x2="256" y2="360" stroke="#06b6d4" stroke-width="4" stroke-dasharray="8 6"/>
+  <rect x="200" y="170" width="112" height="80" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+  <text x="256" y="218" font-family="system-ui, sans-serif" font-size="32" font-weight="900" fill="#38bdf8" text-anchor="middle">▲ ▼</text>
+
+  <!-- Wrench & Technical Gear Badge -->
+  <circle cx="256" cy="310" r="32" fill="url(#accent-grad)"/>
+  <path d="M256 290 L262 300 L272 300 L264 308 L267 318 L256 312 L245 318 L248 308 L240 300 L250 300 Z" fill="#0f172a"/>
+
+  <!-- Top Axon Pulley Cable -->
+  <path d="M256 140 L256 80" stroke="url(#cyan-grad)" stroke-width="8"/>
+  <circle cx="256" cy="70" r="22" fill="#0f172a" stroke="url(#cyan-grad)" stroke-width="6"/>
+
+  <!-- Brand Label -->
+  <text x="256" y="445" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="2" text-anchor="middle">TECNO ELEVATEV</text>
+  <text x="256" y="475" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#38bdf8" letter-spacing="4" text-anchor="middle">AXON ERP</text>
+</svg>

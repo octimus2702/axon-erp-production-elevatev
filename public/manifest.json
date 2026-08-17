@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "short_name": "AXON ERP",
+  "name": "AXON ERP - Sistema Enterprise",
+  "description": "Plataforma de Gestión Integral para Empresas de Elevadores, Mantenimiento y Obras",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#090d16",
+  "theme_color": "#06b6d4",
+  "display": "standalone",
+  "orientation": "any",
+  "categories": ["business", "productivity", "utilities"]
+}
